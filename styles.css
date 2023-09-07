@@ -1,0 +1,54 @@
+body{
+    background-color:#BEDAD4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    color: #FF9B85;
+}
+#container{
+    width: 50%;
+    height: 50%;
+    border: 5px solid #FF9B85 ;
+    background-color: #F7DEEA;
+    overflow-y: scroll;
+}
+#form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cat-container{
+    text-align: center;
+}
+
+input[type=button]{
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    color: #965748;
+    background-color: #ffc8bc;
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 12%) 0px 1px 1px 0px, rgb(60 66 87 / 16%) 0px 0px 0px 1px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 8px;
+    display: inline-block;
+    min-height: 28px;
+}
+
+input[type=number]{
+    width: 3em;
+	padding: 0.5em;
+	border: .2em solid #BEDAD4;
+	border-radius: 1em;
+	text-align: center;
+	color: #FF9B85;
+	appearance: textfield;
+	margin: 0; 
+}
